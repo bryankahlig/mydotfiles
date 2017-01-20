@@ -10,6 +10,8 @@ export PATH=$PATH:/Users/bryan.kahlig/bin
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 ########from original bashrc
 
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
 #Eclipse SDK Path
 export ECLIPSESDK=/Users/bryan.kahlig/apps/adt-bundle-mac-x86_64-20131030/sdk
 export PATH=$PATH:$ECLIPSESDK/platform-tools
@@ -79,8 +81,9 @@ if [ "$PS1" ]; then
     #export PS1=" "$PS1"\[\e]30;\u@\h\a\]"
 fi
 
-if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-	source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
+if [ -f /usr/local/share/gitprompt.sh ]; then
+	GIT_PROMPT_THEME=Default
+	. /usr/local/share/gitprompt.sh
 fi
 
 GIT_PROMPT_ONLY_IN_REPO=1
