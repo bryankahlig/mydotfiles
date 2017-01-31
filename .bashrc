@@ -12,20 +12,13 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
-#Eclipse SDK Path
-export ECLIPSESDK=/Users/bryan.kahlig/apps/adt-bundle-mac-x86_64-20131030/sdk
-export PATH=$PATH:$ECLIPSESDK/platform-tools
-
-#GL Libraries for emulator execution
-export LD_LIBRARY_PATH=$ECLIPSESDK/tools/lib
-
 #file listing
 export CLICOLOR=1
 #xport LSCOLORS=xxxxxxxxXxxxxxxxxxxxxx
 export LSCOLORS=gxBxhxDxcxhxhxhxhxcxcx
-#alias ls='ls -al --group-directories-first'
+
+#aliases
 alias ll='ls -FGlAhp'
-alias mtr='sudo /usr/local/sbin/mtr'
 
 function rfind() { find . -name "$@" -print ;}
 function pcat()  { cat "$@" | pbcopy ;}
@@ -93,7 +86,4 @@ GIT_PROMPT_ONLY_IN_REPO=1
 #echo
 #fortune | cowsay
 
-# Setting PATH for Python 3.4
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH
