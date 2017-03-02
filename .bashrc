@@ -9,6 +9,7 @@ export PATH=$PATH:/Users/bryan.kahlig/bin
 ########from original bashrc
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 ########from original bashrc
+export PATH="$PATH:$HOME/node_modules/.bin" # add node goodies to path
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
