@@ -4,10 +4,11 @@ Files for bash, vim, and other app settings of the like
 Also includes other dependencies to help get started quickly
 
 ## Downloads
-vim-pathogen (a vim plugin organizing plugin)
-Homebrew
-rvm (Ruby Version Manager
-IntelliJ
+
+* vim-pathogen (a vim plugin organizing plugin)
+* Homebrew
+* rvm (Ruby Version Manager)
+* IntelliJ
 
 
 ## Installs through package managers
