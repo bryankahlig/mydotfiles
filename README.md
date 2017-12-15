@@ -22,3 +22,6 @@ Also includes other dependencies to help get started quickly
 * brew install python
 * pip install awscli
 * rvm install ruby
+
+## SBT Specific
+When having an issue with sbt or sbt project dependencies, run the ./getsbtdeps.sh script (it's just one line) in the root of your project.
