@@ -25,3 +25,12 @@ Also includes other dependencies to help get started quickly
 
 ## SBT Specific
 When having an issue with sbt or sbt project dependencies, run the ./getsbtdeps.sh script (it's just one line) in the root of your project.
+
+# PowerShell Setup
+Install ConEmu
+Clone posh-git to C:\proj\
+Run: Install-Module -Name Posh-SSH
+
+# volumecontrol
+These are files that can be used to automate controlling the volume of the speakers.
+Used on my work computer because I keep forgetting to turn down my volume when I stop work for the day.
